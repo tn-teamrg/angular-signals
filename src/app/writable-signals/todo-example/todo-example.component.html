@@ -1,0 +1,16 @@
+<p>todo-example works!</p>
+
+<section class="new">
+	<article class="todo-item" *ngIf="task().state === TaskState.New">
+		<p> display title here... </p>
+		<button>Mark as Done</button>
+	</article>
+</section>
+
+<section class="done">
+	<article class="todo-item" *ngIf="task().state === TaskState.Done">
+		display title here...
+	</article>
+</section>
+
+<button>Create a new Task</button>
