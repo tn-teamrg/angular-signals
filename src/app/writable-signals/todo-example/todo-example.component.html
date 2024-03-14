@@ -2,14 +2,14 @@
 
 <section class="new">
 	<article class="todo-item" *ngIf="task().state === TaskState.New">
-		<p> display title here... </p>
+		<p>[TITLE GOES HERE]</p>
 		<button>Mark as Done</button>
 	</article>
 </section>
 
 <section class="done">
 	<article class="todo-item" *ngIf="task().state === TaskState.Done">
-		display title here...
+		[TITLE GOES HERE]
 	</article>
 </section>
 
